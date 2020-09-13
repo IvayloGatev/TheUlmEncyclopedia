@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageInstitutions"
+        android:layout_width="142dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/institutions"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_institutions" />
+
+    <TextView
+        android:id="@+id/textInstitutions"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/institutions"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageInstitutions" />
+
+    <ImageView
+        android:id="@+id/imageLandmarks"
+        android:layout_width="142dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:contentDescription="@string/landmarks"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_landmarks" />
+
+    <TextView
+        android:id="@+id/textLandmarks"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/landmarks"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageLandmarks" />
+
+    <ImageView
+        android:id="@+id/imageRestaurants"
+        android:layout_width="142dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/restaurants"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInstitutions"
+        app:srcCompat="@drawable/icon_restaurants" />
+
+    <TextView
+        android:id="@+id/textRestaurants"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/restaurants"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageRestaurants" />
+
+    <ImageView
+        android:id="@+id/imageShops"
+        android:layout_width="142dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:contentDescription="@string/shops"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textLandmarks"
+        app:srcCompat="@drawable/icon_shops" />
+
+    <TextView
+        android:id="@+id/textShops"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/shops"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageShops" />
+
+    <ImageView
+        android:id="@+id/imageEducation"
+        android:layout_width="142dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/education"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textRestaurants"
+        app:srcCompat="@drawable/icon_education" />
+
+    <TextView
+        android:id="@+id/textEducation"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/education"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageEducation" />
+
+    <ImageView
+        android:id="@+id/imageHealthCare"
+        android:layout_width="142dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:contentDescription="@string/health_care"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textShops"
+        app:srcCompat="@drawable/icon_healthcare" />
+
+    <TextView
+        android:id="@+id/textHealthCare"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="@string/health_care"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHealthCare" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

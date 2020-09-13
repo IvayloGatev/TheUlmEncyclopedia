@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">The Ulm Encyclopedia</string>
+    <string name="institutions">Institutions</string>
+    <string name="landmarks">Landmarks</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="education">Education</string>
+    <string name="health_care">Health Care</string>
+    <string name="button_map">Find on map</string>
+</resources>
